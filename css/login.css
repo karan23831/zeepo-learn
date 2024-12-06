@@ -1,0 +1,211 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+h1, h2 {
+    font-family: SuisseWorks;
+}
+
+* {
+    margin: 5px;
+}
+
+/* Header Section */
+#header {
+    display: flex;
+    background: white;
+}
+
+#udemy_logo {
+    width: 100px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+#search_box {
+    flex-grow: 2;
+    display: flex;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+#search_box > input {
+    flex-grow: 2;
+    width: 95%;
+    height: 30px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+}
+
+.search-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.header_text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+
+#sign_up:hover {
+    background: green; /* Change background to green on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+#sign_up {
+    background: black; 
+    color: green; 
+    border: 1px solid green;
+    width: 90px;
+    margin: 10px 3px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+#log_in {
+    background: white;
+    border: 1px solid black;
+    width: 90px;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+#cart {
+    background: white;
+    border: none;
+}
+
+#cart > img {
+    width: 30px;
+    height: 30px;
+}
+
+#globe {
+    background: white;
+    border: 1px solid black;
+    margin: 10px 3px;
+}
+
+#globe > img {
+    width: 20px;
+    height: 20px;
+}
+
+#log_in > a {
+    color: black;
+    text-decoration: none;
+}
+
+#sign_up > a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sign-Up Page */
+#sign_up_page {
+    display: grid;
+    align-items: center;
+    gap: 2%;
+    margin: 0 auto;
+    width: 30%;
+}
+
+#top {
+    display: grid;
+    grid-template-rows: 10% 70%;
+    gap: 15%;
+}
+
+.already {
+    display: flex;
+    gap: 2%;
+    text-align: center;
+}
+
+.name {
+    padding: 3%;
+    font-size: 20px;
+}
+
+.sign {
+    padding: 3%;
+    background-color: purple;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.color_1 {
+    color: black;
+}
+
+/* Footer Section */
+#footer {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    margin-top: 300px;
+    border: 1px solid black;
+}
+
+.flex-bo {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+}
+
+.flex-bo h2 {
+    color: white;
+    margin: 6% 4%;
+    font-size: 20px;
+    width: 100%;
+}
+
+.flex-image {
+    display: flex;
+    flex-direction: row;
+    margin: 1% 2%;
+    width: 40%;
+}
+
+.flex-image img {
+    margin: 3%;
+}
+
+.logo-img > img {
+    width: 6%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+
+.logo-img > div {
+    float: right;
+    color: white;
+    margin-right: 3%;
+}
+
+.footer-link {
+    display: grid;
+    width: 60%;
+    margin: 20px;
+    grid-template-columns: 28% 28% 28%;
+    grid-template-rows: repeat(5, 10%);
+    gap: 5%;
+    color: white;
+}
+
+.footer-link > div:nth-child(12) {
+    grid-row-start: 5;
+}
+
+

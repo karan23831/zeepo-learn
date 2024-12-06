@@ -1,0 +1,197 @@
+* {
+    margin:5px;
+
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1, h2 {
+    font-family:SuisseWorks
+}
+#header {
+        display: flex;
+        background: white;
+    }
+    #udemy_logo  {
+        width: 100px;
+        border: 1px solid white ;
+        height: 50px;
+    }
+    #search_box > input{
+        flex-grow: 2;
+        border: 0px solid black;
+        width: 95%;
+        height: 30px;
+        margin-right:15px;
+        /* border-radius: 30px; */
+        outline:none;
+    }
+    .search-btn {
+        width: 20px;
+        height: 20px;
+    }
+    #search_box {
+        flex-grow: 2;
+        margin-bottom: 1%;
+        display: flex;
+        margin-top: 5px;
+        border: 1px solid black;
+        border-radius: 40px;
+    }
+    .header_text {
+        font-size: .9rem;
+        font-weight: 400;
+        line-height: 1.4;
+        margin-top: 20px;
+    }
+    
+    #sign_up:hover {
+        background: green; /* Change background to green on hover */
+        color: white; /* Change text color to white on hover */
+    }
+    
+    #sign_up {
+        background: black; 
+        color: green; 
+        border: 1px solid green;
+        width: 90px;
+        margin: 10px 3px;
+        font-weight: bold;
+        font-size: 0.8rem;
+        transition: all 0.3s ease; /* Add smooth transition effect */
+    }
+   #log_in {
+       background: white;
+       border: 1px solid black;
+       width: 90px;
+       margin: 10px auto;
+       font-weight: bold;
+       font-size: 0.8rem;
+   }
+   #cart {
+       background: white;
+       border: 0px solid black;
+   }
+   #cart > img {
+    width: 30px;
+       height: 30px;
+   }
+   #globe {
+    background: white;
+       border: 1px solid black;
+       margin: 10px 3px;
+   }
+   #globe >img {
+
+    width: 20px;
+       height: 20px;
+   }
+
+.black-bg {
+    width:100%;
+    background-color: black;
+    /* border:2px solid red; */
+    height:400px;
+    float:left;
+    clear:left;
+}
+.content {
+    /* border:3px solid blue; */
+    height:350px;
+    width:600px;
+    margin-left:20%;
+    margin-top:3%;
+    float:left;
+    color:white;
+   
+    
+}
+.course-box {
+    height:750px;
+    border:3px solid whitesmoke;
+    width:300px;
+    float:left;
+    margin-left:5%;
+    margin-top:3%;
+    color:black;
+    background-color: white;
+
+
+}
+.course-content {
+    width:600px;
+    border: 3px solid whitesmoke;
+    height:500px;
+    float:left;
+    margin-left:20%;
+    margin-top:60px;
+}
+
+#box-2 {
+    display:flex;
+    flex-direction: column;
+   
+
+}
+#box-2  img{
+    width:100%;
+    height:6%;
+    
+}
+img{
+    margin-left: 0%;
+}
+#box-3-1{
+margin-top: 30px;
+width: 560px;
+display: grid;
+grid-template-rows:65px 65px 65px 65px 65px 65px 65px 65px;
+grid-template-columns: 280px 280px;
+padding:5px;
+}
+#box-btn-1{
+  background-color: rgb(11, 194, 11);
+  padding: 5%;
+  width: 260px;
+  color: white;
+  font-weight: 300;
+  font-size: 20px ;
+}  
+#box-btn-2{
+  padding: 5%;
+  width: 260px;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: white;
+}
+
+
+.box-2-2{
+padding: 2%;
+  width: 260px;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: white;
+} 
+#day{
+    text-align: center;
+    font-size: 12px;
+}
+#hour{
+    font-size: 14px;
+}
+.class{
+    text-align: center;
+}
+#deve{
+    color: rgb(11, 194, 11);
+}
+#star{
+    color: gold;
+}
+#best{
+    border: solid ;
+    background-color: goldenrod;
+    color: black;
+    width: 70px;
+}
